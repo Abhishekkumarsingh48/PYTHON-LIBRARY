@@ -1,0 +1,11 @@
+import numpy as np
+arr1=np.arange(6)
+print(arr1)
+arr2=arr1.reshape(2,3)
+print(arr2)
+a1=np.arange(15).reshape(3,5)
+print(a1)
+a1.resize(5,3)
+print(a1)
+a2=np.arange(32).reshape(2,4,4)
+print(a2)

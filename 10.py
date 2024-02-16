@@ -1,0 +1,15 @@
+import numpy as np
+a1=np.arange(9).reshape(3,3)
+print(a1)
+print(a1.T)
+a2=np.arange(6,15).reshape(3,3)
+print(a2)
+print(a1+a2)
+print(np.add(a1,a2))
+print(a1-a2)
+print(np.subtract(a1,a2))
+print(a1*a2)
+print(np.multiply(a1,a2))
+print(np.dot(a1,a2))
+print(a1@a2)
+      

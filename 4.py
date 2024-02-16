@@ -1,0 +1,15 @@
+import numpy as np
+a1=np.zeros((2,4),dtype='int32')
+print(a1)
+a2=np.ones((2,4),dtype='int32')
+print(a2)
+a3=np.empty((2,4),dtype='float16')
+print(a3)
+'''a4=np.empty.identity(5)
+print(a4)'''
+a5=np.eye(3,5)
+print(a5)
+a6=np.linspace(1,5,6)
+print(a6)
+a7=np.linspace(0,2*np.pi,100)
+print(a7)
